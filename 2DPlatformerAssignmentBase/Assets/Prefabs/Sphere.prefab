@@ -152,9 +152,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1565810861968296}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7b1416a00c2fcf840a709043f66378d8, type: 3}
+  m_Script: {fileID: 11500000, guid: b05ab60a359041c4e9a04135f79e0f1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  threshold: -20
   speed: 10
   jumpvelocity: 10
   playerMask:

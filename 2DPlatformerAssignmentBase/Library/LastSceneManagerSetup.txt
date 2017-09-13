@@ -1,4 +1,0 @@
-sceneSetups:
-- path: Assets/Scenes/CircleTesting.unity
-  isLoaded: 1
-  isActive: 1
