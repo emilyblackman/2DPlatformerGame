@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerController : MonoBehaviour {
+public class SphereController : MonoBehaviour {
 
 
 	public float speed = 10;
@@ -16,8 +16,8 @@ public class PlayerController : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		mybody = GetComponent<Rigidbody2D> ();
-		myTransform = GetComponent<Transform>();
+		mybody = this.GetComponent<Rigidbody2D> ();
+		myTransform = this.GetComponent<Transform>();
 		//tagGround = GameObject.Find(this.name + "/Tag Ground").transform;
 	}
 
