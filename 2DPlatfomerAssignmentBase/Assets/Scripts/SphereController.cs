@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour {
 
-
+	public float threshold = -20;
 	public float speed = 10;
 	public float jumpvelocity = 10;
 	public LayerMask playerMask;
@@ -12,12 +12,14 @@ public class PlayerController : MonoBehaviour {
 	Transform myTransform, tagGround;
 	Rigidbody2D mybody;
 	bool isground = true;
+	private Vector2 pos;
 
 
 	// Use this for initialization
 	void Start () {
 		mybody = GetComponent<Rigidbody2D> ();
 		myTransform = GetComponent<Transform>();
+		pos = myTransform.position;
 		//tagGround = GameObject.Find(this.name + "/Tag Ground").transform;
 	}
 
@@ -29,6 +31,9 @@ public class PlayerController : MonoBehaviour {
 		if (Input.GetButtonDown ("Jump")) {
 			Jump ();
 		}
+
+		if (transform.position.y < threshold)
+			Respawn();	
 	}
 
 
@@ -45,5 +50,9 @@ public class PlayerController : MonoBehaviour {
 		if (isground)
 			mybody.velocity += jumpvelocity * Vector2.up;
 
+	}
+
+	public void Respawn() {
+		transform.position = pos;
 	}
 }
