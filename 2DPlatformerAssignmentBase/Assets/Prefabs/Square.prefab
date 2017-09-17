@@ -39,7 +39,11 @@ GameObject:
   - component: {fileID: 50854233033927708}
   - component: {fileID: 61354326341309466}
   - component: {fileID: 58848129365701250}
+<<<<<<< HEAD
   - component: {fileID: 114610760215655550}
+=======
+  - component: {fileID: 114508599156663584}
+>>>>>>> c8756744da61c303e7386b888abc9adabb98bd8c
   m_Layer: 8
   m_Name: Square
   m_TagString: Untagged
@@ -156,7 +160,11 @@ BoxCollider2D:
   m_GameObject: {fileID: 1646335089432542}
   m_Enabled: 1
   m_Density: 1
+<<<<<<< HEAD
   m_Material: {fileID: 6200000, guid: 5b52684d03f5e894f8116dbef166ef3a, type: 2}
+=======
+  m_Material: {fileID: 0}
+>>>>>>> c8756744da61c303e7386b888abc9adabb98bd8c
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -173,7 +181,11 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+<<<<<<< HEAD
 --- !u!114 &114610760215655550
+=======
+--- !u!114 &114508599156663584
+>>>>>>> c8756744da61c303e7386b888abc9adabb98bd8c
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -181,6 +193,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1646335089432542}
   m_Enabled: 1
   m_EditorHideFlags: 0
+<<<<<<< HEAD
   m_Script: {fileID: 11500000, guid: 20ae5a665feedd648b67996aee073f37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -189,4 +202,15 @@ MonoBehaviour:
   playerMask:
     serializedVersion: 2
     m_Bits: 4294967039
+=======
+  m_Script: {fileID: 11500000, guid: b05ab60a359041c4e9a04135f79e0f1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  threshold: -20
+  speed: 10
+  jumpvelocity: 10
+  playerMask:
+    serializedVersion: 2
+    m_Bits: 0
+>>>>>>> c8756744da61c303e7386b888abc9adabb98bd8c
   canmoveinair: 1
