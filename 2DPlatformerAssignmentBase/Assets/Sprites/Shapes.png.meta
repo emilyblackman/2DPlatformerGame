@@ -1,0 +1,171 @@
+fileFormatVersion: 2
+guid: 6d9b4650d624afb4ebd814982add9e92
+timeCreated: 1505666236
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Triangle
+    21300002: Circle
+    21300004: Square
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Triangle
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 692
+        width: 235
+        height: 186
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 13, y: 2, z: 9, w: 8}
+      outline:
+      - - {x: -49.975723, y: 1.7329102}
+        - {x: -103.83537, y: -89.97241}
+        - {x: 5.2249756, y: -90.85657}
+        - {x: 106.397644, y: -90.16852}
+        - {x: 54.09729, y: -3.1713257}
+        - {x: 1.0561218, y: 84.90875}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Circle
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 679
+        width: 209
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 6, y: 5, z: 3, w: 1}
+      outline:
+      - - {x: 54.869446, y: 83.32312}
+        - {x: 29.637207, y: 93.93451}
+        - {x: 3.2046509, y: 98.2428}
+        - {x: -11.556702, y: 96.78552}
+        - {x: -22.890015, y: 95.09796}
+        - {x: -47.860718, y: 85.4588}
+        - {x: -65.493835, y: 72.60004}
+        - {x: -81.63916, y: 53.75482}
+        - {x: -90.65759, y: 36.8432}
+        - {x: -95.57422, y: 16.497192}
+        - {x: -97.17456, y: 4.0355225}
+        - {x: -96.79315, y: -7.084961}
+        - {x: -95.42352, y: -17.438965}
+        - {x: -91.22168, y: -33.63739}
+        - {x: -81.93689, y: -50.362793}
+        - {x: -69.69696, y: -65.75775}
+        - {x: -53.679688, y: -78.884094}
+        - {x: -34.346313, y: -88.4411}
+        - {x: -17.833496, y: -93.06781}
+        - {x: 1.2182007, y: -95.286804}
+        - {x: 18.404297, y: -93.28674}
+        - {x: 35.127014, y: -89.33679}
+        - {x: 51.779175, y: -81.26593}
+        - {x: 65.27252, y: -72.43262}
+        - {x: 79.18872, y: -58.624146}
+        - {x: 87.520325, y: -45.77185}
+        - {x: 97.16028, y: -24.48346}
+        - {x: 100.78247, y: -0.28112793}
+        - {x: 99.07086, y: 17.543335}
+        - {x: 95.12286, y: 33.22693}
+        - {x: 80.2572, y: 60.070618}
+      - - {x: -82.66284, y: -52.256042}
+        - {x: -82.66284, y: -51.388}
+        - {x: -81.57788, y: -51.388}
+        - {x: -81.57788, y: -52.256042}
+      - - {x: 78.669495, y: -59.54785}
+        - {x: 78.669495, y: -58.972656}
+        - {x: 79.38849, y: -58.972656}
+        - {x: 79.38849, y: -59.54785}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Square
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 683
+        width: 207
+        height: 194
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 12, y: 4, z: 11, w: 7}
+      outline:
+      - - {x: -6.5785522, y: 88.27289}
+        - {x: -90.66559, y: 88.443726}
+        - {x: -90.66547, y: 1.0258179}
+        - {x: -90.61273, y: -90.85071}
+        - {x: -1.5585938, y: -91.29578}
+        - {x: 90.27319, y: -90.262146}
+        - {x: 90.665405, y: -5.3894653}
+        - {x: 90.22034, y: 87.855225}
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
